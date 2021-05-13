@@ -36,7 +36,7 @@ header{
 }
 header .logo {
     font-size: 50px;
-    
+
 }
 
 
@@ -103,5 +103,11 @@ table, td, th{
 
 #specs{
     text-align: center;
+}
+
+@media all and (max-width:800px){
+    header{
+        background-color: burlywood;
+    }
 }
 
