@@ -1,16 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 
 
 .container{
     background: #ccc;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+
+
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -27,21 +24,26 @@ header{
 
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    z-index: 100;
 }
 
 #header-img{
-    width: 100px;
+    width: 75px;
     vertical-align: top;
+
 }
 header .logo {
     font-size: 50px;
+    
 }
 
 
 header .logo a{
     color: red;
     text-decoration: none;
-    line-height: 100px;
+    line-height: 50px;
 
 }
 
@@ -51,6 +53,7 @@ header .nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    float: left;
 }
 
 header nav a{
@@ -81,5 +84,24 @@ table, td, th{
 }
 .column-left{
     font-weight: bold;
+    background-color: lightgray
+}
+
+.c-video{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.26%;
+    padding-top: 30px;
+}
+
+#video{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+
+#specs{
+    text-align: center;
 }
 
